@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files (DO NOT commit raw data)
+# =========================
+data/raw/
+data/processed/
+data/staging/
+
+# Allow README or sample data only
+!data/README.md
+!data/sample/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Secrets & Configs
+# =========================
+.env
+*.env
+config.yaml
+secrets.yaml
+credentials.json
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Airflow (if added later)
+# =========================
+airflow/logs/
+airflow/*.db
+airflow/__pycache__/
+
+# =========================
+# Docker
+# =========================
+docker/.env
